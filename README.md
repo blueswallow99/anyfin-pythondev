@@ -27,7 +27,7 @@
 
 ## Requests and Response examples
 
-> request 1:
+request 1:
 `{
     "data":{
                 "customer_income": 1000,
@@ -38,14 +38,14 @@
             }
 }`
 
-> response 1:
+response 1:
 `{
     "category": "ACCEPT",
     "message": "credit check passed",
     "status": 200
 }`
 
-> request 2:
+request 2:
 `{
     "data":{
                 "customer_income": 1000,
@@ -56,7 +56,7 @@
             }
 }`
 
-> response 2:
+response 2:
 `{
     "category": "REJECT",
     "message": [
@@ -66,7 +66,7 @@
     "status": 200
 }`
 
-> request 3:
+request 3:
 `{
     "data":{
                 "customer_income": 100,
@@ -77,7 +77,7 @@
             }
 }`
 
-> response 3:
+response 3:
 `{
     "category": "REJECT",
     "message": [
@@ -90,7 +90,7 @@
     "status": 200
 }`
 
-> request 4:
+request 4:
 `{
     "data":{
                 "customer_income": 100,
@@ -101,7 +101,7 @@
             }
 }`
 
-> response 4:
+response 4:
 `{
     "category": "REJECT",
     "message": [
@@ -110,7 +110,7 @@
     "status": 200
 }`
 
-> request 5:
+request 5:
 `{
     "data":{
                 "customer_income": 10000,
@@ -120,7 +120,7 @@
             }
 }`
 
-> response 5:
+response 5:
 `{
     "message": [
         "payment_remarks"
