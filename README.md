@@ -28,7 +28,7 @@
 ## Requests and Response examples
 
 request 1:
-`{
+```{
     "data":{
                 "customer_income": 1000,
                 "customer_debt": 500,
@@ -36,10 +36,10 @@ request 1:
                 "payment_remarks": 1,
                 "customer_age": 20
             }
-}`
+}```
 
 response 1:
-`{
+{
     "category": "ACCEPT",
     "message": "credit check passed",
     "status": 200
