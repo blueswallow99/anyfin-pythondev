@@ -28,7 +28,8 @@
 ## Requests and Response examples
 
 request 1:
-```{
+ ```sh
+ {
     "data":{
                 "customer_income": 1000,
                 "customer_debt": 500,
@@ -36,17 +37,22 @@ request 1:
                 "payment_remarks": 1,
                 "customer_age": 20
             }
-}```
+}
+   ```
 
 response 1:
-{
+ ```sh
+ {
     "category": "ACCEPT",
     "message": "credit check passed",
     "status": 200
-}`
+}
+   ```
+
 
 request 2:
-`{
+ ```sh
+{
     "data":{
                 "customer_income": 1000,
                 "customer_debt": 5000,
@@ -54,20 +60,24 @@ request 2:
                 "payment_remarks": 1,
                 "customer_age": 20
             }
-}`
+}
+   ```
 
 response 2:
-`{
+ ```sh
+{
     "category": "REJECT",
     "message": [
         "HIGH_DEBT_FOR_INCOME",
         "PAYMENT_REMARKS_12M"
     ],
     "status": 200
-}`
+}
+   ```
 
 request 3:
-`{
+ ```sh
+{
     "data":{
                 "customer_income": 100,
                 "customer_debt": 5000,
@@ -75,10 +85,12 @@ request 3:
                 "payment_remarks": 4,
                 "customer_age": 17
             }
-}`
+}}
+   ```
 
 response 3:
-`{
+ ```sh
+{
     "category": "REJECT",
     "message": [
         "LOW_INCOME",
@@ -88,10 +100,12 @@ response 3:
         "UNDERAGE"
     ],
     "status": 200
-}`
+}
+   ```
 
 request 4:
-`{
+ ```sh
+{
     "data":{
                 "customer_income": 100,
                 "customer_debt": 50,
@@ -99,34 +113,41 @@ request 4:
                 "payment_remarks": 1,
                 "customer_age": 22
             }
-}`
+}
+   ```
 
 response 4:
-`{
+ ```sh
+{
     "category": "REJECT",
     "message": [
         "LOW_INCOME"
     ],
     "status": 200
-}`
+}
+   ```
 
 request 5:
-`{
+ ```sh
+{
     "data":{
                 "customer_income": 10000,
                 "customer_debt": 505,
                 "payment_remarks_12m": 0,
                 "customer_age": 34
             }
-}`
+}
+   ```
 
 response 5:
-`{
+ ```sh
+{
     "message": [
         "payment_remarks"
     ],
     "status": 500
-}`
+}
+   ```
 
 
 
