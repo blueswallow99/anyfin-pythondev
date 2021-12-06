@@ -25,7 +25,7 @@
 > 4: send your requests to http://localhost/credit-policies or http://localhost:5000/credit-policies
 
 
-## Requests and Response examples
+## Request and Response examples
 
 request 1:
  ```sh
