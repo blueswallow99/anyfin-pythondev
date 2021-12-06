@@ -1,8 +1,7 @@
 # anyfin-pythondev
 
-## This is an assignment from Anyfin company for python developer job position
  
-### setup 
+## setup 
 > 1: clone the project in to your device or server
 
 
