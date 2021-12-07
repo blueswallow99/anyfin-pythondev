@@ -7,8 +7,11 @@
 * [Docker](https://https://www.docker.com/)
 
 ## Design
+I used flask to deploy this small API for credit policies, project contains a simple app.py, Dockerfile, docker-compose.yml, and a requirements.txt.
+It's a simple rest API which can return all of the reasons for credit rejection. I used a decorator for the /ceredit-policies API to catch exception and return a meaningfull response. 
 
 
+I choose to keep the API simple for now, but I could have made an authentication system to send requests and save data to related users if they got accepted to use in further processes.
 
  
 ## Installation 
